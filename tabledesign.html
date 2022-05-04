@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .table {
+            width: 80%;
+            text-align: left;
+            border-collapse: collapse;
+            border: 1px solid rgb(49, 158, 49);
+        }
+        
+        .table thead {
+            background-color: cadetblue;
+            color: white;
+        }
+        
+        .table tr,
+        .table td,
+        .table th {
+            padding: 10px;
+            /* border: 1px solid black; */
+        }
+        
+        .table tr:nth-child(even) {
+            background-color: #04040440;
+        }
+        
+        .table tr:hover {
+            background-color: #04040460;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Gender</th>
+
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Mg Mg</td>
+                    <td>mgmg@gmail.com</td>
+                    <td>Mandalay</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mya May</td>
+                    <td>mya@gmail.com</td>
+                    <td>AungLan</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Kyaw Kyaw</td>
+                    <td>kyaw@gmail.com</td>
+                    <td>Yangon</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Hnin Hnin</td>
+                    <td>hnin@gmail.com</td>
+                    <td>Taunggyi</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Zaw Zaw</td>
+                    <td>zaw@gmail.com</td>
+                    <td>ShweBo</td>
+                    <td>Male</td>
+                </tr>
+            </tbody>
+
+
+
+        </table>
+    </div>
+</body>
+
+</html>
